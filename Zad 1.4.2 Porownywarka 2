@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int pierwsza;
+    int druga;
+    int trzecia;
+        cout << "Podaj pierwsza liczbe całkowita: ";
+    cin >> pierwsza;
+        cout << "Podaj drugą liczbe całkowita: ";
+    cin >> druga;
+        cout << "Podaj trzecią liczbe całkowita: ";
+    cin >> trzecia;
+    
+    
+    if (pierwsza > druga && pierwsza > trzecia) {
+        cout << "Twoja pierwsza liczba "<< pierwsza<< " jest najwieksza";
+    }
+    else if (druga > pierwsza && druga > trzecia) {
+        cout << "Twoja druga liczba "<< druga<< " jest najwieksza";
+        
+    }
+    else if (trzecia > pierwsza && trzecia > druga) {
+        cout << "Twoja trzecia liczba "<< trzecia<< " jest najwieksza";
+    }
+
+    return 0;
+}
+
