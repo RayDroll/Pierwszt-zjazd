@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Jan\n";
+    cout<<"s27144\n";
+    cout<<"PJATK\n";
+
+    return 0;
+}
+
