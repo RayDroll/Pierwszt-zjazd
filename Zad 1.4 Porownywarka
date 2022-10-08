@@ -1,0 +1,30 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+
+
+
+
+int main()
+{
+    int pierwsza;
+    int druga;
+    int trzecia;
+        cout << "Podaj pierwsza liczbe całkowita: ";
+    cin >> pierwsza;
+        cout << "Podaj drugą liczbe całkowita: ";
+    cin >> druga;
+        cout << "Podaj trzecią liczbe całkowita: ";
+    cin >> trzecia;
+    
+    int liczba = pierwsza;
+    if (druga>liczba) liczba=druga; {
+    if (trzecia>liczba) liczba = trzecia;
+        
+        
+        std::cout << "Najwieksza liczba jest: "<< liczba;
+    }
+
+    return 0;
+}
