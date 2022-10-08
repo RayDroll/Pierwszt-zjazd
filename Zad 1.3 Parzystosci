@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int liczba;
+    cout << "Podaj liczbe całkowitą: ";
+    cin >> liczba;
+  
+    if (liczba == 0) {
+        std::cout << "Twoja liczba "<< liczba<< " jest równa zero";
+    }
+    else if (liczba%2==0) {
+        std::cout << "Twoja liczba " << liczba << " jest parzysta";
+        
+    }
+    else{
+        std::cout << "Twoja liczba "<< liczba <<" jest nieparzysta";
+    }
+    
+
+    return 0;
+}
+
