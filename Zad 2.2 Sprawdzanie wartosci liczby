@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int liczba;
+    cout << "Podaj liczbe całkowitą: ";
+    cin >> liczba;
+    
+    if (liczba > 0) {
+        std::cout << "Twoja liczba " << liczba << " jest dodatnia";
+        
+    } else if (liczba < 0) {
+        std::cout << "Twoja liczba "<< liczba <<" jest ujemna";
+    }
+    else if (liczba == 0) {
+        std::cout << "Twoja liczba "<< liczba<< " jest równa zero";
+    }
+
+    return 0;
+}
